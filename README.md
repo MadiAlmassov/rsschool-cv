@@ -1,1 +1,1 @@
-https://MadiAlmassov.github.io/rsschool-cv/cv
+https://Madi.github.io/rsschool-cv/cv
