@@ -6,7 +6,7 @@ body {
     background-color: #35e6fd;
 }
 .special-box {
-    width: 300px;
+    width: 600px;
     padding: 10px;
     margin: 10px auto;
     border: 10px solid #7be2d1;
@@ -16,7 +16,7 @@ body {
     box-shadow: 0 7px 10px rgba(52, 126, 136, 0.1)
 }
 .special-box img {
-    width: 100%;
+    width: 30%;
     height: auto;
     border-radius: 150px;
 }
