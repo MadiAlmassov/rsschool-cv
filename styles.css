@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #4393c2;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 210mm;
+  background: #59f0b1;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.profile h2 {
+  font-size: 1.2em;
+  color: #666;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.contacts ul, .skills ul, .education ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacts li, .skills li, .education li {
+  margin-bottom: 10px;
+}
+
+.contacts a, .education a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contacts a:hover, .education a:hover {
+  text-decoration: underline;
+}
+
+.about p, .languages p {
+  margin-left: 20px;
+  color: #555;
+}
+
+.experience .job {
+  margin-bottom: 20px;
+}
+
+.experience h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.experience p {
+  margin-left: 20px;
+  color: #555;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  flex: 1 1 45%;
+  margin-bottom: 10px;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  header .profile h1 {
+    font-size: 2em;
+  }
+}
